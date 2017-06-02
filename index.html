@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Pellet - A new layer of communication between you and your dog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,19 +43,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="">Pellet</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
+                        <a href="/blog">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -73,10 +67,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>Never misunderstand your dog again!</h1>
+                        <h3>Pellet is a digital dog bell that tells you on all your smart devices when your dog wants to go outside. Be alerted anywhere in your house with notifications. Best of all, <b> NO MORE MESSES! </b></h3>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                        <!-- <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -86,7 +80,32 @@
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
-                        </ul>
+                        </ul> -->
+                        <div class="col-md-6 video">
+                            <div class="videoWrapper">
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/X5p-xUssi1A"></iframe>      
+                            </div>
+                        </div>
+                        <div class="col-md-6 subscribe-form" style="margin-bottom: 50px;">
+                            <form action="//getpellet.us15.list-manage.com/subscribe/post?u=10a1061f4193f8686ebbdccc6&amp;id=e88ae58f98" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="clearfix">
+                                    <h4 class="where">Where can you get your paws on one?</h4>
+                                    <h5>Lauching soon on kickstarter</h5>
+                                    <p>Pellet is currently in development. Simply enter your email below to stay up to date with our progress. <br> Also, you'll have a chance to win one of 15 free pellets!</p>
+                                    <div class="form-group">
+                                        <label>Email *</label>
+                                        <input type="email" name="EMAIL" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div id="success"></div>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_10a1061f4193f8686ebbdccc6_e88ae58f98" tabindex="-1" value=""></div>
+                                        <button type="submit" class="btn btn-xl ok-button">OK</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,11 +123,16 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-sm-6 what-it-does">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">How it works</h2>
+                    <p class="lead">Smart TV <img class="small-image" src="img/about/computer-screen.png"> Alerts</p>
+                    <p class="lead">Smart Phone <img class="small-image" src="img/about/phone-screen.png"> Alerts</p>
+                    <p class="lead">Smart Watch <img class="small-image" src="img/about/watch.png"> Alerts</p>
+                    <p class="lead">Wifi Connectivity<img class="small-image" src="img/about/wifi-signal-tower.png"> </p>
+                    <p class="lead">Low Power Consumption<img class="small-image" src="img/about/battery.png"> </p>
+                    <p class="lead">Personal Voice Recording (For dog feedback)<img class="small-image" src="img/about/microphone.png"> </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/ipad.png" alt="">
@@ -217,7 +241,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -228,7 +252,16 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      // })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+      // ga('create', 'UA-92166079-1', 'auto');
+      // ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
