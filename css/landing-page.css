@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+/* 
+    purple #404775
+    (64,71,117)
+*/
+
 body,
 html {
     width: 100%;
@@ -17,12 +23,17 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
+    background: #404775;
+}
+
+.topnav  a {
+    color: white !important;   
 }
 
 .lead {
@@ -36,8 +47,59 @@ h6 {
     text-align: center;
     color: #f8f8f8;
 
-    background: url(../img/pug.jpg) no-repeat center center;
+    background: 
+        linear-gradient(
+            rgba(64, 71, 117, 0.5), 
+            rgba(64, 71, 117, 0.5)
+        ),
+        url(../img/pug.jpg);
     background-size: cover;
+}
+
+@media(max-width:992px) {
+    .form-right {
+        display: none;
+    }
+}
+
+@media(min-width:991px) {
+    .form-left {
+        display: none;
+    }
+}
+
+.clearfix {
+    background: rgba(255,255,255,0.8) !important;
+    padding: 30px;
+    text-align: left;
+    color: black;
+}
+
+.where {
+    font-family: raleway;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3f4676;
+}
+
+.ok-button{
+    width: 100%;
+    background: #3f4676;
+    border: 0px;
+}
+
+.ok-button:hover{
+    /*width: 100%;*/
+    background: #3f4676;
+}
+
+.ok-button:active{
+    /*width: 100%;*/
+    background: #3f4676;
+}
+
+.ok-button::selection{
+    background: #3f4676;
 }
 
 .intro-message {
@@ -66,17 +128,10 @@ h6 {
 .subscribe-form {
     color: black;
     background: #ddd;
-    border: 5px solid #8e44ad;
+    border: 5px solid #404775;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.ok-button {
-    background: #8e44ad;
-    color: white;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .what-it-does {
@@ -101,6 +156,110 @@ h6 {
     width: 100%;
     height: 100%;
     border: 0px;
+}
+
+#how-it-works{
+    background: rgba(240,240,240,1);
+}
+
+#how-it-works .works-list {
+    text-align: center;
+    font-weight: 200;
+    /*margin-top: 20px;*/
+    padding: 40px;
+}
+
+#how-it-works .works-list p {
+    font-size: 24px;
+}
+
+#how-it-works .works-list p.easy {
+    margin-top: 50px;
+    /*font-size: 24px;*/
+    /*font-weight: 400;*/
+}
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+h5 {
+    /*text-transform: uppercase;*/
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #404775;
+    border-radius: 3px;
+    /*text-transform: uppercase;*/
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #404775;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #404775;
+    background-color: #404775;
+}
+
+.btn-xl .badge {
+    color: #404775;
+    background-color: #fff;
 }
 
 @media(max-width:767px) {
