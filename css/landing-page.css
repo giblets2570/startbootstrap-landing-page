@@ -49,8 +49,8 @@ h6 {
 
     background: 
         linear-gradient(
-            rgba(64, 71, 117, 0.5), 
-            rgba(64, 71, 117, 0.5)
+            rgba(64, 71, 117, 0.3), 
+            rgba(64, 71, 117, 0.3)
         ),
         url(../img/pug.jpg);
     background-size: cover;
