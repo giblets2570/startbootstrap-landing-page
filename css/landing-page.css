@@ -60,6 +60,9 @@ h6 {
     .form-right {
         display: none;
     }
+    .what-it-does-dog {
+        margin-top: 80px;
+    }
 }
 
 @media(min-width:991px) {
